@@ -74,13 +74,13 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-  font-size: 2.7rem;
+  font-size: 3.12rem; /* increased roughly 5pt */
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
 .hero p {
-  font-size: 1.3rem;
+  font-size: 1.72rem; /* increased roughly 5pt */
   margin-bottom: 2rem;
   opacity: 0.95;
 }
@@ -90,7 +90,7 @@ nav ul li a:hover {
   color: #fff;
   padding: 0.9rem 2.2rem;
   border-radius: var(--radius);
-  font-size: 1.1rem;
+  font-size: 1.52rem; /* increased roughly 5pt */
   font-weight: 700;
   text-decoration: none;
   transition: background 0.2s;
@@ -108,7 +108,7 @@ nav ul li a:hover {
 .programs h2 {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 2.42rem; /* increased roughly 5pt */
 }
 
 .programs-grid {
@@ -142,13 +142,13 @@ nav ul li a:hover {
 
 .program-card h3 {
   margin-bottom: 0.7rem;
-  font-size: 1.15rem;
+  font-size: 1.57rem; /* increased roughly 5pt */
   color: var(--primary);
 }
 
 .program-card p {
   margin-bottom: 1.1rem;
-  font-size: 0.99rem;
+  font-size: 1.41rem; /* increased roughly 5pt */
   text-align: center;
   color: #666;
 }
@@ -160,7 +160,7 @@ nav ul li a:hover {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.41rem; /* increased roughly 5pt */
   transition: background 0.2s;
 }
 
@@ -180,6 +180,7 @@ nav ul li a:hover {
 .benefits h2 {
   text-align: center;
   margin-bottom: 1.2rem;
+  font-size: 2.42rem; /* increased roughly 5pt */
 }
 
 .benefits-list {
@@ -188,7 +189,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  font-size: 1.1rem;
+  font-size: 1.52rem; /* increased roughly 5pt */
   color: #333;
 }
 
@@ -211,7 +212,7 @@ footer {
   color: #fff;
   margin-left: 1.1rem;
   text-decoration: underline;
-  font-size: 0.98rem;
+  font-size: 1.4rem; /* increased roughly 5pt */
 }
 
 @media (max-width: 600px) {
@@ -220,9 +221,9 @@ footer {
     gap: 0.6rem;
   }
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.42rem; /* increased roughly 5pt */
   }
   .programs h2, .benefits h2 {
-    font-size: 1.3rem;
+    font-size: 1.72rem; /* increased roughly 5pt */
   }
 }
