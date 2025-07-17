@@ -19,6 +19,10 @@ body {
   line-height: 1.6;
 }
 
+html {
+  font-size: 16px;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -215,14 +219,41 @@ footer {
 }
 
 @media (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
   .header-flex, .footer-flex {
     flex-direction: column;
     gap: 0.6rem;
   }
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.42rem;
+  }
+  .hero p {
+    font-size: 1.72rem;
+  }
+  .cta-btn {
+    font-size: 1.52rem;
   }
   .programs h2, .benefits h2 {
-    font-size: 1.3rem;
+    font-size: 1.72rem;
+  }
+  .program-card h3 {
+    font-size: 1.57rem;
+  }
+  .program-card p {
+    font-size: 1.41rem;
+  }
+  .program-btn {
+    font-size: 1.41rem;
+  }
+  .benefits h2 {
+    font-size: 2.42rem;
+  }
+  .benefits-list {
+    font-size: 1.52rem;
+  }
+  .footer-flex a {
+    font-size: 1.4rem;
   }
 }
